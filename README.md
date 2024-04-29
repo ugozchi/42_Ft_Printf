@@ -1,7 +1,8 @@
 ![Ft_Printf logo](img/ft_printf_logo.png)
 
 ![Language Badge](https://img.shields.io/badge/C-fe428e?logo=C&label=language&labelColor=151515) ![Norminette Badge](https://img.shields.io/badge/passing-brightgreen?logo=42&label=norminette&labelColor=151515) ![Library Badge](https://img.shields.io/badge/my_own_libft-004d40?logo=GitHub&label=library%20used&labelColor=151515)
-
+<p align="center">
+	Ce projet t'a aidé ? Mets-lui une 🌟!
 # Ft_Printf ✏️
 
 Ce projet et clair et efficace. Vous devez recoder printf. Avec un peu de chance, vous serez en mesure de le réutiliser dans des projets futurs sans la crainte d'être considéré comme un trichuer. Vous apprendrez principalement à utiliser les arguments variadiques.  
