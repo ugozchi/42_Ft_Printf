@@ -22,4 +22,6 @@ int	main()
 	printf("%%x : %x\n", x);
 	printf("%%X : %X\n", X);
 	printf("%%% : %%\n");
+	printf("COUCOU%");
+	printf("%");
 }

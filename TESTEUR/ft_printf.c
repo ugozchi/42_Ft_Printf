@@ -6,7 +6,7 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 16:04:09 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/03 17:33:44 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/06 18:37:22 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -175,7 +175,8 @@ int	main()
 	unsigned int	x = 156;
 	unsigned int	X = 156;
 	unsigned long int	addresse = (unsigned long int)&u;
-	 
+
+	printf("Printf de la lib <stdio.h> :\n");
 	printf("%%c : %c\n", c);
 	printf("%%s : %s\n", str);
 	printf("%%p : %p\n", ptr);
@@ -186,7 +187,10 @@ int	main()
 	printf("%%x : %x\n", x);
 	printf("%%X : %X\n", X);
 	printf("%%\n");
+//	printf("COUCOU%");
+//	printf("%");
 
+	ft_printf("\nMon printf :\n");
 	ft_printf("%%c : %c\n", c);
 	ft_printf("%%s : %s\n", str);
 	ft_printf("%%p : %p\n", ptr);
@@ -197,4 +201,7 @@ int	main()
 	ft_printf("%%x : %x\n", x);
 	ft_printf("%%X : %X\n", X);
 	ft_printf("%%\n");
+	ft_printf("COUCOU%");
+	ft_printf("%");
+
 }
