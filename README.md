@@ -11,9 +11,9 @@ Tu peux trouver le sujet [ici](fr.subject.pdf).
 
 <br>
 
-## Télécharge et compile la librairie ⬇️
+## Télécharge et utilise ma fonction ⬇️
 
-Clone la librairie.
+Clone le projet.
 
 ```
 git clone https://github.com/ugozchi/42_Ft_Printf.git
@@ -24,26 +24,23 @@ cd 42_Ft_Printf
 
 ## Options possibles ⚙️
 
-Texte ici
-
-<br>
-
-```
-|- *.
-|- TEST
-```
+Ici, vous pouvez utiliser les options classiques d'un Makefile (options ci-dessous) mais aussi l'option bonus qui vous permettra d'ajouter vos fonctions bonus dans votre fichier archive libft.a si vous les avez fait.  
+Toute cette partie correspond à ce que l'on doit rendre pour ce faire corriger.
 
 <br>
 
 | Option | Description |
 | --- | --- |
-| `make` | Créer un fichier archive libft.a avec tous les fichiers |
+| `make` | Créer un fichier archive libftpritnf.a avec tous les fichiers |
+| `make clean` | Supprime le dossier contenant les fichiers objets ```.o```|
+| `make fclean` | Execute `clean` puis supprime le fichier archive ```.a``|
+| `make re` | Execute `fclean` puis `make` |
 
 <br>
 
 ## Tests  📋
 
-Text ici.
+Ici, c'est le moment de taper la commande make et voir si un fichier archive ```.a``` se créer bien.
 
 <br>
 
@@ -53,7 +50,7 @@ Text ici.
 
 <br>
 
-Une fois cela vérifier, nous pouvons tester notre projet à l'aide de : [test](quel test?)
+Une fois cela vérifier, nous pouvons tester notre projet à l'aide de : [francinette](https://github.com/xicodomingues/francinette)
 
 <br>
 
@@ -65,29 +62,19 @@ Voici les résultats :
 
 | |
 | --- |
-| <img src="./img/Test_first_part.png" /> |
-
-<br>
-
-### Deuxième partie
+| <img src="./img/test.png" /> |
 
 <br>
 
 | |
 | --- |
-| <img src="./img/Test_2nd_part.png" /> |
+| <img src="./img/passed.png" /> |
 
 <br>
 
 ### Partie Bonus
 
-<br>
-
-| |
-| --- |
-| <img src="./img/Test_bonus_part.png" /> |
-
-<br>
+Malheureusement pas de parie bonus pour cette fois car cela me semblait trop compliqué au vue de mon niveau actuel. Mais on reviendra dessus avec plus d'expérience !!!
 
 ## Note Final et Commentaires 📔
 
@@ -95,12 +82,12 @@ Voici les résultats :
 
 | |
 | --- |
-| ![](./img/note2.png) |
+| ![](./img/note.png) |
 
 
 | | |
 | --- | --- |
-| Moulinette | ![](./img/note1.png) |
-| Correcteur 1 | <img src="./img/correction1.png" /> |
-| Correcteur 2 | <img src="./img/correction2.png" /> |
-| Correcteur 3 | <img src="./img/correction3.png" /> |
+| Moulinette | ![](./img/moulinette.png) |
+| Correcteur 1 | <img src="./img/com1.png" /> |
+| Correcteur 2 | <img src="./img/com2.png" /> |
+| Correcteur 3 | <img src="./img/com3.png" /> |
