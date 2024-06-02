@@ -6,7 +6,7 @@
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 17:02:26 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/05/21 15:46:14 by uzanchi          ###   ########.fr       */
+/*   Updated: 2024/05/31 12:11:04 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ size_t	putnbr_base10_count(int nbr, char *base)
 	return (count);
 }
 
-size_t	put_unsignednbr_base10_count(unsigned int nbr, char *base)
+size_t	put_u_base10_count(unsigned int nbr, char *base)
 {
 	unsigned long long	lnbr;
 	unsigned int		base_length;

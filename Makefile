@@ -6,7 +6,7 @@
 #    By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/21 15:20:49 by uzanchi           #+#    #+#              #
-#    Updated: 2024/05/21 15:25:16 by uzanchi          ###   ########.fr        #
+#    Updated: 2024/05/29 19:38:10 by uzanchi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,7 @@ ${NAME}:		${OBJS} ${LIBFT}
 .c.o:
 				${CC} ${CFLAGS} -I${HEAD_DIR} -I${LIBFT_DIR} -c $< -o $@
 				
-clean:
+clean :
 				make -C ${LIBFT_DIR} clean
 				rm -f ${OBJS}
 
