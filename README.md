@@ -33,7 +33,7 @@ Toute cette partie correspond à ce que l'on doit rendre pour ce faire corriger.
 | --- | --- |
 | `make` | Créer un fichier archive libftpritnf.a avec tous les fichiers |
 | `make clean` | Supprime le dossier contenant les fichiers objets ```.o```|
-| `make fclean` | Execute `clean` puis supprime le fichier archive ```.a``|
+| `make fclean` | Execute `clean` puis supprime le fichier archive ```.a```|
 | `make re` | Execute `fclean` puis `make` |
 
 <br>
