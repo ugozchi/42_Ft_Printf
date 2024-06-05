@@ -19,16 +19,25 @@ int	main()
 	printf("La vraie fonction test suite :\n");
 	printf("%c\n%s\n%p\n%d\n%u\n%x\n%X\n%%", cara, str, ptr, ford, foru, forx, forX);
 	
-	ft_printf("\n\nDEUXIEME PARTIE\n\n");
+	ft_printf("\nDEUXIEME PARTIE\n\n");
 	
 	ft_printf("%d\n", ft_printf("moi + %s", str));
 	printf("%d\n", printf("moi + %s", str));
 
-	ft_printf("TROISIEME PARTIE\n\n");
+	ft_printf("\nTROISIEME PARTIE\n\n");
 	
 	ft_printf("%s\n", str0);
 	ft_printf("%p\n", ptr0);
 	printf("%s\n", str0);
 	printf("%p\n", ptr0);
-}
 
+	ft_printf("\nQUATRIEME PARTIE\n\n");
+
+	ft_printf("%d\n", ft_printf("Coucouc ca va %"));
+	printf("%d\n", printf("Coucouc ca va %"));
+
+	ft_printf("\nCINQUIEME PARTIR\n\n");
+
+	ft_printf("%p", (void *)-1);
+	printf("%p", (void *)-1);
+}
